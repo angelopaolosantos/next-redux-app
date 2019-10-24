@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "pm2-dev": "pm2 start npm --name 'next' -- run dev",
+    "pm2-prod": "pm2 start npm --name 'next' -- start"
   },
   "keywords": [],
   "author": "",
@@ -15,8 +17,10 @@
     "axios": "^0.19.0",
     "next": "^9.1.1",
     "next-redux-wrapper": "^4.0.1",
+    "pm2": "^4.1.2",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-redux": "^7.1.1"
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4"
   }
 }
