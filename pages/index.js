@@ -1,8 +1,9 @@
 import React from 'react'
+import Template from '../components/Template'
 
 const index = () => {
     return (
-        <div>Hello World!</div>
+        <Template>Hello World!</Template>
     )
 }
 
