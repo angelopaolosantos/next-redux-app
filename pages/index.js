@@ -3,9 +3,7 @@ import Template from '../components/Template'
 
 const index = () => {
     return (
-        <div className="container">
-            <img src="img/trovegeek-logo2.png" width="250" />
-            <span className="msg">Soon to Open!</span>
+        <div>
         <style jsx>{`
         .container {
             display: flex;
@@ -23,6 +21,10 @@ const index = () => {
         }
         `}
         </style>
+        <div className="container">
+            <img src="img/trovegeek-logo2.png" width="250" />
+            <span className="msg">Soon to Open!</span>
+        </div>
         </div>
     )
 }
